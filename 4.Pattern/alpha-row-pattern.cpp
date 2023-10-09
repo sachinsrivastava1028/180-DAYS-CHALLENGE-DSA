@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i,j,row;
+    cout<<"Enter the row: ";
+    cin>>row;
+
+    for(i=1;i<=row;i++)
+    {
+        char name='a'+i-1;
+        for(j=1;j<=i;j++)
+        {
+            cout<<name<<" ";
+        }
+        cout<<endl;
+    }
+}
