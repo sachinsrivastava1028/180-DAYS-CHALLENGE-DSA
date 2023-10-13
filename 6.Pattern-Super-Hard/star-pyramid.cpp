@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int i,j,n;
+    int i,j,k,n;
     cout<<"Enter the value of 'n': ";
     cin>>n;
 
@@ -13,9 +13,9 @@ int main()
         {
             cout<<"  ";
         }
-        for(j=i;j>=1;j--)
+        for(k=1;k<=2*i-1;k++)
         {
-            cout<<i<<" ";
+            cout<<"*"<<" ";
         }
         cout<<endl;
     }
