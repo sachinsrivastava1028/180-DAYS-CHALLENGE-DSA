@@ -10,10 +10,11 @@ int main()
 
     while(num>0)
     {
-        rem=num&1;//reminder //used bitwise operator 
-        num= num>>1; //quotient //right shift
+        rem=num%8;//reminder //used bitwise operator 
+        num= num/8; //quotient //right shift
         ans+=rem*mul; //ans
         mul*=10; //mul
     }
     cout<<ans<<endl;
 }
+

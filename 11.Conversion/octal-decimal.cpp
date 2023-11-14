@@ -14,7 +14,7 @@ int main()
         rem=num%10; //remainder
         num=num/10; //quotient
         ans=rem*mul+ans; //answer
-        mul*=2; //multiplication
+        mul*=8; //multiplication
     }
     cout<<ans<<endl;
 }
