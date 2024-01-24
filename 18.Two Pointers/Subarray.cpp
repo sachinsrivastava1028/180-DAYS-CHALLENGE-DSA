@@ -7,8 +7,7 @@ int main()
     std::cout << "Enter the number of elements: ";
     std::cin >> n;
 
-
-    int* arr=new int[n];
+    int*arr=new int[n];
 
     for(int i=0;i<n;i++) 
     {
